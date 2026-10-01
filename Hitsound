@@ -110,7 +110,7 @@ end, function(arg_5_0)
 	-- Alineación dinámica del botón a la derecha según el ancho de la ventana
 	var_0_0.SameLine(winSize.x - 45)
 
-	if var_0_0.Button("USER", var_0_0.ImVec2(30, 30)) then
+	if var_0_0.Button("CC", var_0_0.ImVec2(30, 30)) then
 		openLink("https://discord.com/users/892881208080478340")
 	end
 
